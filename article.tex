@@ -1,0 +1,85 @@
+% https://en.wikibooks.org/wiki/LaTeX/Document_Structure#Document_classes
+
+
+
+% \documentclass{article}
+
+\documentclass[11pt,twocolumn,a4paper]{article}
+
+
+
+\usepackage{blindtext}
+
+
+
+\begin{document}
+
+
+
+\title{DS200 Module 4: Assignment}
+
+\author{Nashez Zubair\\ nashezzubair@iisc.ac.in}
+
+
+
+\maketitle
+
+
+
+\begin{abstract}
+
+Your abstract goes here...
+
+...
+
+\end{abstract}
+
+
+
+\section{Introduction}
+
+
+
+\section{Review of Paper 1}
+
+Starting a new section here.
+
+This is a review of~\cite{perera:2016}.
+
+
+
+\subsection{Strengths}
+Proposes a model that allows non IT experts to configure sensorsand data processing mechanisms in an IoT middleware(the CASCOM model). The approach is scalable, autonomous, utility based,dynamic and easy to use. Also performs additional context discovery and provides suggestions.
+\subsection{Weakness}
+The Question-Answer based model might not be generalizable without lot of efforts. Also not much to do here for an IT expert.
+\subsection{Summary}
+Not considering any privacy aspects into the model. CASCOM significantly useful for non IT experts and identifying secondary context information.
+
+
+
+
+\section{Review of Paper 2}
+
+This is a review of~\cite{qin:2016}.
+
+
+
+\subsection{Strengths}
+A good paper for looking at characteristics of IoT data. Also proposes a generalizable application framework for IoT applications..
+\subsection{Weakness}
+Not very fine grained description is given about the characteristics. Does not back this up with use cases.
+\subsection{Summary}
+An approach for using provenance information about the data on the Web to assess their quality and trustworthiness.
+
+
+\section{Conclusions}
+
+
+
+\bibliographystyle{IEEEtran}
+
+\bibliography{article}
+
+
+
+\end{document}
